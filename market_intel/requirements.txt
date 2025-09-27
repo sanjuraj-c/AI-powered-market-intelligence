@@ -1,0 +1,27 @@
+# Data handling
+pandas>=2.0.0
+numpy>=1.25.0
+openpyxl>=3.1.0  # for Excel reading if needed
+
+# Web/API requests
+requests>=2.31.0
+rapidfuzz>=2.16.1
+
+# Hugging Face LLMs
+transformers>=4.35.0
+torch>=2.1.0  # CPU/GPU support
+sentencepiece>=0.1.99
+huggingface-hub>=0.18.0
+
+# Streamlit UI
+streamlit>=1.27.0
+
+# Logging & utils
+tqdm>=4.66.0
+python-dotenv>=1.1.1
+
+# Optional (PDF/HTML report generation)
+markdown2>=2.5.14
+weasyprint>=57.1
+matplotlib>=3.8.0
+seaborn>=0.12.2

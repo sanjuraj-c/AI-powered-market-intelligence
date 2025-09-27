@@ -1,0 +1,39 @@
+[
+  {
+    "insight_text": "Apps in the '1.9' category have the highest average rating.",
+    "evidence": {
+      "category": "1.9",
+      "avg_rating": 19.0,
+      "app_count": 1
+    },
+    "confidence_score": 0.9,
+    "recommendation": "Prioritize apps in '1.9' for higher user satisfaction."
+  },
+  {
+    "insight_text": "Ios apps have higher average ratings compared to the other platform.",
+    "evidence": {
+      "android": {
+        "n_apps": 9660,
+        "avg_rating": 4.17511284616323,
+        "median_rating": 4.3
+      },
+      "ios": {
+        "n_apps": 1,
+        "avg_rating": 4.38582,
+        "median_rating": 4.38582
+      }
+    },
+    "confidence_score": 0.8,
+    "recommendation": "Focus marketing and development efforts on ios apps."
+  },
+  {
+    "insight_text": "App '3D Holograms Joke' has high installs but low ratings (<3).",
+    "evidence": {
+      "app_name": "3D Holograms Joke",
+      "rating": 2.9,
+      "installs_estimate": 5000000
+    },
+    "confidence_score": 0.85,
+    "recommendation": "Investigate poor reviews for this high-install app to identify quick wins."
+  }
+]
